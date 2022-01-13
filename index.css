@@ -1,0 +1,28 @@
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+}
+#canvasMatrix{
+  width: 100%;
+  height: 100vh;
+}
+#box1 {
+  position: fixed;
+  width: 80vw;
+  height: 500px;
+  margin: 10vh 0 0 0;
+  background-color: #000000;
+}
+.title {
+  margin-left: 20px;
+  color: red;
+  font-size: 20px;
+}
+#notdis {
+  font-size: 20px;
+  color: #FFFFFF;
+}
