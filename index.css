@@ -1,10 +1,11 @@
 body {
-  width: 100vw;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: #121212;
   display: flex;
   justify-content: center;
+  font-family: Sans-Serif;
 }
 #canvasMatrix{
   width: 100%;
@@ -21,8 +22,29 @@ body {
   margin-left: 20px;
   color: red;
   font-size: 20px;
+  user-select: none;
 }
 #notdis {
   font-size: 20px;
   color: #FFFFFF;
+}
+#ppsspp {
+  color: #61D2E8;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+#download_ppsspp {
+  color: #2E7788;
+  margin: 0;
+  padding: 0;
+}
+#ppsspp_gold {
+  color: #C3C644;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+#download_ppsspp_gold {
+  color: #8B8D2C;
+  margin: 0;
+  padding: 0;
 }
