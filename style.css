@@ -1,0 +1,162 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+#container {
+  width: 100%;
+  max-width: 2000px;
+  min-height: 100vh;
+  background-color: #DBDBDB;
+}
+#box1 {
+  width: 100%;
+  background-image: url("img/paisaje.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#box1 img {
+  width: 20%;
+  margin: 20px;
+  background-color: #FFFFFF;
+  border: 3px solid #000000;
+  border-radius: 50%;
+}
+#box1 p {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  font-size: 4.5vw;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 0 20px 0 20px;
+  user-select: none;
+}
+.container-padre {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#box2 {
+  width: 100%;
+  background-color: #DBDBDB;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.div-padre {
+  width: 85%;
+  padding: 2%;
+  margin-top: 5%;
+  border: 5px solid #000000;
+  border-top-color: #4580A6;
+  border-left-color: #4580A6;
+  border-right-color: #123D4E;
+  border-bottom-color: #123D4E;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #FFFFFF;
+}
+.container-app {
+  width: 96%;
+  min-height: 26vw;
+}
+#img1 {
+  width: 25vw;
+  border-radius: 10px;
+  background-color: #75C7DB6B;
+  margin: 0 2% 2% 0;
+  box-shadow: 1px 1px 4px #989898;
+  float: left;
+}
+#box2 div p {
+  margin-top: 0px;
+}
+.span1 {
+  font-weight: bold;
+  font-size: 4.7vw;
+  margin: 0;
+}
+.span2 {
+  color: #818181;
+  font-size: 4.2vw;
+  margin: 0;
+}
+.span3 {
+  color: #6E6E6E;
+  font-size: 4.2vw;
+  margin: 0;
+}
+#button_container {
+  width: 100%;
+  margin-top: 3%;
+  display: flex;
+}
+#button_container a {
+  text-decoration: none;
+  font-size: 6vw;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 10px 30px 10px 30px;
+  background-color: #0063B4;
+  text-decoration: none;
+}
+#button_container a:hover
+{
+  outline: 3px solid #000000;
+}
+
+#div-padre2 {
+  border-left-color: #A49E44;
+  border-top-color: #A49E44;
+  border-right-color: #4D4D0E;
+  border-bottom-color: #4D4D0E;
+  margin-bottom: 5%;
+}
+#img2 {
+  width: 25vw;
+  border-radius: 10px;
+  background-color: #B298003D;
+  margin: 0 2% 2% 0;
+  box-shadow: 1px 1px 4px #989898;
+  float: left;
+}
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  #box1 img {
+    margin: 10px;
+  }
+  #box1 p {
+    margin: 0 10px 0 10px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 4000px) {
+  #box1 img {
+    width: 300px;
+    border-width: 7px;
+  }
+  #box1 p {
+    font-size: 50px;
+    margin: 10px;
+  }
+  #box2 {
+    width: 50%;
+  }
+  .div-padre {
+    width: 90%;
+    margin-bottom: 5%;
+  }
+  
+}
